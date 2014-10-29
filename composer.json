@@ -1,7 +1,12 @@
 {
     "name": "yiidoc/yii2-jwplayer",
     "description": "Extension jwplayer for Yii2 Framework.",
-    "keywords": ["yii2", "extension", "jwplayer", "Longtail Video"],
+    "keywords": [
+        "yii2",
+        "extension",
+        "jwplayer",
+        "Longtail Video"
+    ],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
@@ -15,13 +20,13 @@
             "email": "zinzinday@gmail.com"
         }
     ],
-    "autoload": {
-        "psr-4": {
-            "yii\\jwplayer\\": "/"
-        }
-    },
     "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\jwplayer\\": ""
+        }
     }
 }
